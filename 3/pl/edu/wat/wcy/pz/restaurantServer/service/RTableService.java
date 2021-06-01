@@ -78,9 +78,8 @@ public List<Reservation> getRTableReservations(Long id){
 
 
 public List<Bill> getRTables(){
-    List<Bill> bills = restTemplate.getForObject("http://BILLSERVICE:8083/bills", List.class);
-    return bills;
-// return rTableRepository.findAll();
+   
+return rTableRepository.findAll();
 }
 
 
