@@ -77,7 +77,7 @@ public List<Reservation> getRTableReservations(Long id){
 }
 
 
-public List<Bill> getRTables(){
+public List<RTable> getRTables(){
    
 return rTableRepository.findAll();
 }
