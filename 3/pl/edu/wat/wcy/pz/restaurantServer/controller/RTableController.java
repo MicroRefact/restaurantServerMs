@@ -53,7 +53,7 @@ public Collection<Reservation> getRTableReservations(Long id){
 
 
 @GetMapping("/rTables")
-public Collection<Bill> getRTables(){
+public Collection<RTable> getRTables(){
     return rTableService.getRTables();
 }
 
